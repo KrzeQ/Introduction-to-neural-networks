@@ -253,9 +253,9 @@ def draw_rectangles(screen):
             rect = pg.Rect(left, top, width, height)
             rects[row][value] = rect
             if values[row][value] == 0:
-                pg.draw.rect(screen, (255, 0, 0), rect)
+                pg.draw.rect(screen, (224, 213, 58), rect)
             else:
-                pg.draw.rect(screen, (0, 0, 255), rect)
+                pg.draw.rect(screen, (58, 72, 224), rect)
             left = left + 50
         left = 10
         top = top + 50
