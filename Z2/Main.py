@@ -2,7 +2,6 @@ import pygame as pg
 import numpy as np
 import perceptron as pr
 import random
-import matplotlib.pyplot as plt
 from button import Button
 from os import system
 
